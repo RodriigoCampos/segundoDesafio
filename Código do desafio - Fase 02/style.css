@@ -1,0 +1,120 @@
+body{
+  margin: 0px;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page{
+  width: 1000px;
+  margin: 0px auto;
+  padding: 65px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  list-style: none;/*Para tirar as bolinhas da lista*/
+  display: flex;/*esse display faz os itens ficarem um ao lado do outro*/
+  gap: 48px;/*gap adc espaco apenas entre os elementos dentro da caixa*/
+  margin: 0;
+  padding: 0;
+  align-items: center;/*Alinha os itens seja na horizontal ou vertical*/
+  margin-bottom: 55px;
+  font-family: 'Mulish', sans-serif;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section{
+  width: 489px;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #1F1534;
+  font-size: 49px;
+  line-height: 56px;
+  
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+  
+}
+
+ul li a:hover {
+  font-weight: bold;
+  
+}
+
+ul li a{
+  opacity: 50%;
+}
+
+footer{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #1F1534;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: black;
+}
+
+
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #F9F9F9;;
+  background: #69B99D;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #36866a;
+}
+
+#balls{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
